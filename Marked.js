@@ -3,10 +3,16 @@
  * Copyright (c) 2011-2013, Christopher Jeffrey. (MIT Licensed)
  * https://github.com/chjj/marked
  *
- * Extracted from facebook relay github repo
- * Modified to apply for Katex and Prism with language support
+ *
  *
  * @providesModule Marked 
+ * 
+ */
+ 
+/**
+ * 
+ * Extracted from facebook relay github repo
+ * Modified to apply for Katex and Prism with language support
  * 
  * There is 'key' issues for child in React! 
  * 
@@ -1136,11 +1142,11 @@ marked.inlineLexer = InlineLexer.output;
 marked.parse = marked;
 
 
-var Markedreact = React.createClass({
+var Marked = React.createClass({
   render: function() {
     var content= marked(this.props.children, this.props);
     
     return React.createElement("div", null, content);
   }
 });
-module.exports = Markedreact;
+module.exports = Marked;
