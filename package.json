@@ -1,0 +1,8 @@
+{
+  "repository": "kwangkim/Marked",
+  "license": "MIT License",
+  "dependencies": {
+    "react": "~0.13.3",
+    "katex": "git://github.com/kwangkim/KaTeX.git",
+  }
+}
