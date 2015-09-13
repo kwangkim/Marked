@@ -4,6 +4,6 @@
   "license": "MIT License",
   "dependencies": {
     "react": "~0.13.3",
-    "katex": "git://github.com/kwangkim/KaTeX.git",
+    "katex": "git://github.com/kwangkim/KaTeX.git"
   }
 }
