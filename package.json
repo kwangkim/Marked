@@ -1,4 +1,5 @@
 {
+  "main": "Marked.js",
   "repository": "kwangkim/Marked",
   "license": "MIT License",
   "dependencies": {
